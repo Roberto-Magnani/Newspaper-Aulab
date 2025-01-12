@@ -1,0 +1,309 @@
+:root{
+    --main: #160707;	
+}
+
+@font-face{ 
+    font-family: angelwish;
+    src:url(../../public/fonts/OldeEnglish.ttf);
+}
+
+h1{
+    font-family: angelwish;
+    font-size: 150px !important;
+}
+
+.h2-custom{
+    font-family: angelwish;
+    font-size: 45px !important;
+}
+
+.p-custom{
+    font-family: angelwish;
+    font-size: 40px !important;
+    margin-bottom: 0px !important;	
+}
+
+header  {   
+    background-image: url(../../public/img/images.jpg);
+    background: linear-gradient(rgba(205, 205, 205, 0.9), rgba(0, 0, 0, 0.5)), url(../../public/img/images.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+
+.container-custom {
+    background-image: url(../../public/img/collage-di-sfondo-di-giornale-vintage-con-stile-carta-strappata_553860-390.avif);
+    background: linear-gradient(rgba(205, 205, 205, 0.9), rgba(0, 0, 0, 0.5)), url(../../public/img/collage-di-sfondo-di-giornale-vintage-con-stile-carta-strappata_553860-390.avif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.container-custom2 {
+    background-image: url(../../public/img/Screenshot2.png);
+    background: linear-gradient(rgba(205, 205, 205, 0.9), rgba(0, 0, 0, 0.5)), url(../../public/img/Screenshot2.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.container-custom3 {
+    width: 100%; /* larghezza del contenitore */
+    max-height: 500px; /* altezza massima del contenitore */
+    
+  }
+  
+  .display-1-custom {
+    
+    font-size: 400% !important; /* grandezza del testo in relazione all'altezza massima del contenitore */
+  }
+
+.text-custom {
+    color: var(--main);
+}
+
+.row-custom {
+    height: 400px;	
+}
+
+/* CSS per la navbar */
+.navbar {
+    border-bottom: 2px solid #333;
+}
+.navbar-toggler{
+    border: 2px solid var(--main);
+}
+
+.navbar-toggler:hover{
+    background-color: var(--sec);
+    color: var(--3th);
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.nav-link{
+    transition: all 0.4s
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.dropdown-item:hover{
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    color: #fff;
+}
+/* fine CSS per la navbar */
+
+ /* CSS per il carosello */
+.carousel-css {
+    position: sticky; 
+    top: 40px; 
+    height: 100vh;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 600px; /* altezza del carosello */
+    background-color: #f2f2f2; /* colore di sfondo */
+    padding: 20px; /* spaziatura interna */
+    position: relative;
+}
+
+.carousel-inner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%; /* altezza dell'immagine */
+    background-size: cover; /* dimensione dell'immagine */
+    background-position: center; /* posizione dell'immagine */
+}
+
+.carousel-item img {
+    height: 400px !important; /* sostituisci con l'altezza desiderata */
+    width: 100%;
+    height: 100%; /* altezza dell'immagine */
+    object-fit: cover; /* dimensione dell'immagine */
+}
+
+.carousel-item .card{
+    background: transparent;
+    /* padding-right: 0px !important;
+    padding-left: 0px !important; */
+    border: none !important;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-inner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* colore di sfondo della didascalia */
+    color: #fff; /* colore del testo */
+}
+  /* fine CSS per il carosello */
+
+  /* CSS per le card */
+.card-custom {
+    height: 580px; /* sostituisci con l'altezza desiderata */
+}
+
+.height-custom {
+    height: 200px;
+}
+
+.btn-primary {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.bordercustom{
+    border: 1px solid black;
+}
+
+.bordercustom:hover{
+    border: 1px solid black;    
+    box-shadow: 5px 5px rgb(194, 194, 194); 
+}
+
+.img-show {
+    width: 600px !important;
+    height: 362px !important;
+    object-fit: cover;
+    position: center;
+}
+/* fine CSS per le card */
+
+/* CSS per la modale */
+
+.notify {
+    position: relative;
+}
+
+.notify i.fa-regular {
+    font-size: 1.5em;
+}
+
+.notify i.fa-solid {
+    font-size: 1.5em;
+    display: none;
+}
+
+.notify:hover {
+    border: 1px solid black;
+    box-shadow: 5px 5px rgb(194, 194, 194);
+}
+
+.notify:hover i.fa-regular {
+    display: none;
+}
+
+.notify:hover i.fa-solid {
+    display: block;
+}
+
+.alert-custom {
+    --bs-alert-padding-x: 0rem !important;	 
+    --bs-alert-padding-y: 0rem !important; 
+    --bs-alert-margin-bottom: 2px !important;
+}
+
+/* fine CSS per la modale */
+
+/* tasto Torna su */
+#scrollToTop {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 5px; 
+    background-color: none; 
+    color: rgb(84, 81, 81); 
+    padding: 5px 8px 5px 8px; 
+    border: 2px solid;
+    border-color: rgb(84, 81, 81); 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+#scrollToTop:hover{
+    background-color: rgb(84, 81, 81);
+    color: white;
+}
+
+/* fine tasto Torna su */
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 100px !important;
+    }
+    .display-1-custom {
+        font-size: 300% !important;
+    }
+
+    .p-show{
+        font-size: 20px !important;
+    }
+
+    .carousel-css {
+        position: unset;
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    .row > * {
+        padding-left: calc(var(--bs-gutter-x) * 0.3) !important;	
+    }
+
+    .img-show {
+        width: 100% !important;
+        height: 362px !important;
+        object-fit: cover;
+        position: center;
+    }
+
+    .nav-item{
+        font-size: 25px !important;
+    }
+
+    .dropdown-item{
+        font-size: 20px !important;
+    }
+}
